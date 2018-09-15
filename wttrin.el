@@ -33,9 +33,9 @@
   :type '(list)
   )
 
-(defcustom wttrin-unit-system "m"
+(defcustom wttrin-unit-system nil
   "Specify the units.  use 'm' for 'metric', 'u' for 'USCS, or
-nil for location based"
+nil for location based units (the default)."
   :group 'wttrin
   :type 'string
   )
